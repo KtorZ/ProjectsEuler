@@ -1,0 +1,1 @@
+lambda{ |arg| sum = 0; arg.to_s.each_char{|n| sum += n.to_i}; puts sum}.call(2**1000)
